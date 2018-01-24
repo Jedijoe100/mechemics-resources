@@ -1,29 +1,31 @@
 <% include ../partials/header.ejs %>
 	<div class="mainContent">
-		<p>test</p>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="microBox">
+					<h3>Purpose</h3>
+					<p>When I was in high school i worked out that normal notes was not good enough for me and so i developed a single note book for chemistry, math 
+					and physics. In the book i had tables of variables lists of formula and constants. Along with those items in the book there are chemistry tables 
+					geometry rules and other peices of useful information that will help me through the rest of high school. One day during the summer holiday I wanted 
+					to make a math calculator that could do complicated math problems from <a href="https://projecteuler.net/">project euler</a>. I decided that on 
+					the website i would put almost all the contents from my math, chemistry and physics book.</p>
+				</div>
+				<div class="microBox">
+					<h3>Project euler</h3>
+					<p>Do you enjoy doing maths and programming? <br>
+					Because then <a href="https://projecteuler.net/">project euler</a> is a good site if you are bored. The site contains hundreds of mathematics 
+					problems for you to solve that require you to either develop a complicated math problem or an advanced computer program to solve the problem.</p>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="microBox">
+					<h3>How website was made</h3>
+					<p>The website was completely coded from scratch without the use of website builders. The website uses heroku to run the page with a Posgres database
+					to store the variables for the different pages. The calculator utilizes javascript functions and uses a html canvas to draw the graph. For the 
+					interactive periodic table i used a html map with a javascript/jquery backend. The website uses node.js and express to post the pages online and 
+					is stylized with css and bootstrap</p>
+				</div>
+			</div>
+		</div>
 	</div>
 <% include ../partials/footer.ejs %>
