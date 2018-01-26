@@ -26,6 +26,7 @@ body {
 }
 #codeInput {
 	height: 600px;
+	width: 400px
 }
 .button {
 	width: 100px;
@@ -35,4 +36,8 @@ body {
 	border-style: solid;
 	border-color: blue;
 	border-width: 1px;
+	height: 400px;
+}
+.calculator {
+	text-align: center;
 }
