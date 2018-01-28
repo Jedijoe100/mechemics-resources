@@ -1,6 +1,26 @@
 <% include ../partials/header.ejs %>
 <% include ../partials/mathHeader.ejs %>
+<br>
 	<div class="mainContent">
-		
+		<div>
+			<button class="button btn btn-primary" id="btnGraphExamples">Variables</button>
+			<button class="button btn btn-primary" id="btnAngleRules">Equations</button>
+		</div>
+		<div id="GraphExmples" class="content">
+			<h4>Graph Examples</h4>
+			<div class="row table">
+				<div class="col-sm-6" id="graphExamplesEquations"><div class="boxHeader">Equations</div></div>
+				<div class="col-sm-6" id="graphExamplesExamples"><div class="boxHeader">Examples</div></div>
+			</div>
+		</div>
+		<div id="AngleRules" class="content">
+			<h4>Angle Rules</h4>
+			<div class="row table">
+				<div class="col-sm-6" id="angleRulesRules"><div class="boxHeader">Rules</div></div>
+				<div class="col-sm-6" id="angleRulesExamples"><div class="boxHeader">Examples</div></div>
+			</div>
+		</div>
+		</div>
 	</div>
+<% include ../partials/VECscript.ejs %>
 <% include ../partials/footer.ejs %>
