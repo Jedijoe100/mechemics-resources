@@ -57,3 +57,8 @@ body {
 .calculator {
 	text-align: center;
 }
+.content {
+	border-style: solid;
+	border-color: #7F92FF;
+	border-width: 2px;
+}
