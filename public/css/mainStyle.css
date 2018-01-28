@@ -15,17 +15,17 @@ body {
 	text-align: center;
 }
 .mainContent {
-	background-color: rgba(255,255,255,0.5)
+	background-color: rgba(255,255,255,0.5);
 }
 .microBox {
-	background-color: rgba(255,255,255,0.3)
+	background-color: rgba(255,255,255,0.3);
 }
 #graph {
 	width: 400px;
 	height: 400px;
 }
 #codeInput {
-	height: 600px;
+	height: 750px;
 	width: 400px
 }
 .button {

@@ -1,0 +1,16 @@
+$(document).ready(function(){
+	$(".content").hide();
+	$("#Variables").show();
+	$("#btnVariables").click(function(){
+		$(".content").hide();
+		$("#Variables").show();
+	});
+	$("#btnEquations").click(function(){
+		$(".content").hide();
+		$("#Equations").show();
+	});
+	$("#btnConstants").click(function(){
+		$(".content").hide();
+		$("#Constants").show();
+	});
+});
