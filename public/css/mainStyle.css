@@ -17,6 +17,22 @@ body {
 .mainContent {
 	background-color: rgba(255,255,255,0.5);
 }
+.boxHeader {
+	text-align: center;
+	border-style: solid;
+	border-color: blue;
+	border-width: 1px;
+}
+.box {
+	border-style: solid;
+	border-color: blue;
+	border-width: 1px;
+}
+.table {
+	border-style: solid;
+	border-color: blue;
+	border-width: 1px;
+}
 .microBox {
 	background-color: rgba(255,255,255,0.3);
 }
