@@ -20,17 +20,17 @@ body {
 .boxHeader {
 	text-align: center;
 	border-style: solid;
-	border-color: blue;
+	border-color: #7F92FF;
 	border-width: 1px;
 }
 .box {
 	border-style: solid;
-	border-color: blue;
+	border-color: #7F92FF;
 	border-width: 1px;
 }
 .table {
 	border-style: solid;
-	border-color: blue;
+	border-color: #7F92FF;
 	border-width: 1px;
 }
 .microBox {
@@ -50,7 +50,7 @@ body {
 }
 #log {
 	border-style: solid;
-	border-color: blue;
+	border-color: #7F92FF;
 	border-width: 1px;
 	height: 400px;
 }
