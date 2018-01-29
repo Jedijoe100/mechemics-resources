@@ -1,0 +1,33 @@
+<% include ../partials/header.ejs %>
+<% include ../partials/physicsHeader.ejs %>
+<br>
+	<div class="mainContent">
+		<div>
+			<button class="button btn btn-primary" id="btnVariables">Variables</button>
+			<button class="button btn btn-primary" id="btnEquations">Equations</button>
+			<button class="button btn btn-primary" id="btnConstants">Constants</button>
+		</div>
+		<div id="Variables" class="content">
+			<h4>Physics Variables</h4>
+			<div class="row table">
+				<div class="col-sm-3" id="variablesName"><div class="boxHeader">Name</div></div>
+				<div class="col-sm-3" id="variablesUnit"><div class="boxHeader">Unit</div></div>
+				<div class="col-sm-3" id="variablesSIName"><div class="boxHeader">SI Name</div></div>
+				<div class="col-sm-3" id="variablesSIUnit"><div class="boxHeader">SI Unit</div></div>
+			</div>
+		</div>
+		<div id="Equations" class="content">
+			<h4>Physics Equations</h4>
+			<ul id="equationsList">
+			</ul>
+		</div>
+		<div id="Constants" class="content">
+		<h4>Physics Constants</h4>
+		<div class="row table">
+			<div class="col-sm-6" id="constantsVariable"><div class="boxHeader">Variable</div></div>
+			<div class="col-sm-6" id="constantsValue"><div class="boxHeader">Value</div></div>
+		</div>
+		</div>
+	</div>
+<% include ../partials/VECscript.ejs %>
+<% include ../partials/footer.ejs %>
