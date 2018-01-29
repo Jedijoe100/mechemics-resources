@@ -1,6 +1,6 @@
 {
   "name": "Mechemics-Resources",
-  "version": "0.0.18",
+  "version": "0.0.18.1",
    "description": "Math Chemistry and Physics resources",
   "engines": {
     "node": "8.9.1"
