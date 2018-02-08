@@ -77,4 +77,4 @@ INSERT INTO Variables VALUE (48, "chemistry", "molar mass", "M", "g/mol", "grams
 --math variables
 INSERT INTO Variables VALUE (52, "math", "wave function", "w(x)", "", ""), (53, "math", "mean", "u", "", ""), (54, "math", "standard deviation", "o", "", "");
 --physics equations
-INSERT INTO Equations VALUE (1, "physics", "v=d/t"), (2, "physics", "a=v/t"), (3, "physics", "F=ma"), (4, "physics", "E=mc^2"), (5, "physics", "Ek =1/2mv^2"), (6, "physics", "Ep=ma/\h") , (7, "physics", "Ep=ma/\h");
+INSERT INTO Equations VALUE (1, "physics", "v=d/t"), (2, "physics", "a=v/t"), (3, "physics", "F=ma"), (4, "physics", "E=mc^2"), (5, "physics", "Ek =1/2mv^2"), (6, "physics", "Ep=ma/\h") , (7, "physics", "Ep=ma/\h"), (8, "physics", "Ep=0.5kx^2"), (9, "physics", "F=kx"), (10, "physics", "P=W/t"), (11, "physics", "I=Q/t"), (12, "physics", "V=IR"), (13, "physics", "Rs = R1 + R2 + ..."), (14, "physics", "Ep=ma/\h");
