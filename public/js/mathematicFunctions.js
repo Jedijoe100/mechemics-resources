@@ -44,3 +44,8 @@ function trig(n1, type){
 		post("Trig Error");
 	}
 }
+function polar(real, imaginary){
+	var radius = root(real*real + real*real, 2);
+	var angle = Math.tan(imaginary/real);
+	post(radius + "cis" + angle);
+}
